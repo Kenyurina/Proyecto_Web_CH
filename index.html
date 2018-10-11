@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Template</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.0/flexslider-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  </head>
+<body> 
+
+  <!-- MENU -->
+
+  <div class="Topnav back_color" id="myTopnav" style="z-index:50;">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <nav id="myNavbar" class="navbar" role="navigation">
+          <div class="navbar-header visible-xs back_color">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="header-logo">
+              <a href=""><img src="img/logoCCIIcl.png" alt=""></a>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <a href="index.html"><img class="hidden-xs hidden-sm" src="img/cicorredoresintegrados.png" alt="" style="margin:15px; width:auto; height:auto;"></a> 
+            <div class="collapse navbar-collapse cont" id="navbarCollapse">
+              <ul id="menu" class="nav navbar-nav">
+                <li class="alin">
+                  <a class="borde primary_text" href="index.html">Inicio</a>
+                </li>
+                <li class="alin">
+                  <a class="borde primary_text" href="QuienesSomos.html">Quienes Somos</a>
+                </li>
+                </li>           
+                <li class="alin">
+                  <a href="solucion_hipotecaria.html" class="dropdown-toggle borde primary_text">Soución Hipotecarias</a>
+                </li>
+                <li class="alin">
+                  <a href="contacto.html" class="borde primary_text" >Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!-- FULL IMAGEN FORM -->
+
+  <div class="bg-img">
+    <div class="tittle-full-img hidden-xs">
+      <h2 class="divider_color">Expertos con toda propiedad</h2> 
+    </div>
+    <div class="dark_primary_color container formulario">
+      <div class="row">
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+          <form>
+            <div class="form-group">
+              <select class="form-control" id="sel1">
+                <option>Comprar</option>
+                <option>Arrendar</option>
+              </select>
+              <br>
+            </div>
+          </form>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+          <form>
+            <div class="form-group">
+              <select class="form-control" id="sel1">
+                <option>Tipo de propiedad</option>
+                <option>Local comercial</option>
+                <option>Agricola</option>
+                <option>Sitio</option>
+                <option>Oficina</option>
+                <option>Departamento</option>
+                <option>Casa</option>
+              </select>
+              <br>
+            </div>
+          </form>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+          <form>
+            <div class="form-group">
+              <select class="form-control" id="sel1">
+                <option>Reg. Metropolitana</option>
+                <option>Reg. Antofagasta</option>
+                <option>Reg. Araucanía</option>
+                <option>Reg. Arica y Parinacota</option>
+                <option>Reg. Aysén</option>
+                <option>Reg. Bernardo OHiggins</option>
+                <option>Reg. Bío Bío</option>
+                <option>Reg. Coquimbo</option>
+                <option>Reg. Los Lagos</option>
+                <option>Reg. Los Rios</option>
+                <option>Reg. Maule</option>
+                <option>Reg. Ninguna</option>
+                <option>Reg. Tarapacá</option>
+                <option>Reg. Valparaiso</option>
+              </select>
+              <br>
+            </div>
+          </form>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+          <form>
+            <div class="form-group">
+              <select class="form-control" id="sel1">
+                <option>Comuna (Ingrese una o varias)</option>
+                <option>Buín</option>
+                <option>Calera de Tangos</option>
+                <option>Cerrillo</option>
+                <option>Cerro Navia</option>
+                <option>Colina</option>
+                <option>Conchali</option>
+                <option>Curacaví</option>
+                <option>El Bosque</option>
+                <option>El Monte</option>
+                <option>Estación Central</option>
+                <option>Huechuraba</option>
+                <option>Independencia</option>
+                <option>Isla de Maipo</option>
+                <option>La Cisterna</option>
+                <option>La Florida</option>
+                <option>La Reina</option>
+                <option>Lampa</option>
+                <option>Las Condes</option>
+                <option>Lo Barnechea</option>
+                <option>Lo Espejo</option>
+                <option>Macul</option>
+                <option>Maipu</option>
+                <option>Maria Pinto</option>
+                <option>Melipilla</option>
+                <option>Ñuñoa</option>
+                <option>Paine</option>
+                <option>Peñaflor</option>
+                <option>Peñalolén</option>
+                <option>Pirque</option>
+                <option>Providencia</option>
+                <option>Pudahuel</option>
+                <option>Puente Alto</option>
+                <option>Quilicura</option>
+                <option>Quinta Normal</option>
+                <option>Recoleta</option>
+                <option>Renca</option>
+                <option>San Bernardo</option>
+                <option>San Joaquin</option>
+                <option>San Miguel</option>
+                <option>Santiago</option>
+                <option>Talagante</option>
+                <option>Tiltil</option>
+                <option>Vitacura</option>
+              </select>
+              <br>
+            </div>
+          </form>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+          <button class="btn divider_color dark_secondary_color"><i class=""></i>Buscar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BODY -->
+
+  <main class="secondary_color">
+
+    <!-- SLIDER DE PRODUCTO -->
+
+    <div class="row">
+      <div class="container">
+        <h3 class="dark_color">Propiedades destacadas</h3>
+        <!--         <div class="row">
+          <div class="col-md-9">
+            <h3 class="dark_color">Propiedades destacadas</h3>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          </div>
+        </div> -->
+        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="col-item">
+                    <div class="photo">
+                      <img src="img/slider-prod (11).jpg" class="img-responsive" alt="a" />
+                    </div>
+                    <div class="info">
+                      <div class="row">
+                        <div class="price col-md-12">
+                          <h5 class="dark_color">Departamento en Providencia</h5>
+                          <h6 class="dark_color_two">Santa Maria del Mar</h6>
+                        </div>
+                        <div class="col-md-6">
+                          <span>m2 const.:104</span>
+                          <span>m2 total.:258</span>
+                          <span>Dorm.:4 Baños.:4</span>
+                        </div>
+                        <div class="col-md-6">
+                          <a href="ficha.html"><button type="button" class="btn btn-info">Ficha</button></a>
+                        </div>
+                      </div>
+                      <div class="separator">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="img/min-logo (1).png" alt="">
+                          </div>
+                          <div class="col-md-9">
+                            <p class="dark_color_two">Vidal Riedel Propiedades - Las Condes</p></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="col-item">
+                    <div class="photo">
+                      <img src="img/slider-prod (2).jpg" class="img-responsive" alt="a" />
+                    </div>
+                    <div class="info">
+                      <div class="row">
+                        <div class="price col-md-12">
+                          <h5 class="dark_color">Departamento en Providencia</h5>
+                          <h6 class="dark_color_two">Santa Maria del Mar</h6>
+                        </div>
+                        <div class="col-md-6">
+                          <span>m2 const.:104</span>
+                          <span>m2 total.:258</span>
+                          <span>Dorm.:4 Baños.:4</span>
+                        </div>
+                        <div class="col-md-6">
+                          <a href="ficha.html"><button type="button" class="btn btn-info">Ficha</button></a>
+                        </div>
+                      </div>
+                      <div class="separator">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="img/min-logo (2).png" alt="">
+                          </div>
+                          <div class="col-md-9">
+                            <p class="dark_color_two">Vidal Riedel Propiedades - Las Condes</p></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="col-item">
+                    <div class="photo">
+                      <img src="img/slider-prod (3).jpg" class="img-responsive" alt="a" />
+                    </div>
+                    <div class="info">
+                      <div class="row">
+                        <div class="price col-md-12">
+                          <h5 class="dark_color">Departamento en Providencia</h5>
+                          <h6 class="dark_color_two">Santa Maria del Mar</h6>
+                        </div>
+                        <div class="col-md-6">
+                          <span>m2 const.:104</span>
+                          <span>m2 total.:258</span>
+                          <span>Dorm.:4 Baños.:4</span>
+                        </div>
+                        <div class="col-md-6">
+                          <a href="ficha.html"><button type="button" class="btn btn-info">Ficha</button></a>
+                        </div>
+                      </div>
+                      <div class="separator">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="img/min-logo (3).png" alt="">
+                          </div>
+                          <div class="col-md-9">
+                            <p class="dark_color_two">Vidal Riedel Propiedades - Las Condes</p></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="col-item">
+                    <div class="photo">
+                      <img src="img/slider-prod (14).jpg" class="img-responsive" alt="a" />
+                    </div>
+                    <div class="info">
+                      <div class="row">
+                        <div class="price col-md-12">
+                          <h5 class="dark_color">Departamento en Providencia</h5>
+                          <h6 class="dark_color_two">Santa Maria del Mar</h6>
+                        </div>
+                        <div class="col-md-6">
+                          <span>m2 const.:104</span>
+                          <span>m2 total.:258</span>
+                          <span>Dorm.:4 Baños.:4</span>
+                        </div>
+                        <div class="col-md-6">
+                          <a href="ficha.html"><button type="button" class="btn btn-info">Ficha</button></a>
+                        </div>
+                      </div>
+                      <div class="separator">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="img/min-logo (4).png" alt="">
+                          </div>
+                          <div class="col-md-9">
+                            <p class="dark_color_two">Vidal Riedel Propiedades - Las Condes</p></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="col-item">
+                    <div class="photo">
+                      <img src="img/slider-prod (13).jpg" class="img-responsive" alt="a" />
+                    </div>
+                    <div class="info">
+                      <div class="row">
+                        <div class="price col-md-12">
+                          <h5 class="dark_color">Departamento en Providencia</h5>
+                          <h6 class="dark_color_two">Santa Maria del Mar</h6>
+                        </div>
+                        <div class="col-md-6">
+                          <span>m2 const.:104</span>
+                          <span>m2 total.:258</span>
+                          <span>Dorm.:4 Baños.:4</span>
+                        </div>
+                        <div class="col-md-6">
+                          <a href="ficha.html"><button type="button" class="btn btn-info">Ficha</button></a>
+                        </div>
+                      </div>
+                      <div class="separator">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="img/min-logo (6).png" alt="">
+                          </div>
+                          <div class="col-md-9">
+                            <p class="dark_color_two">Vidal Riedel Propiedades - Las Condes</p></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="col-item">
+                    <div class="photo">
+                      <img src="img/slider-prod (6).jpg" class="img-responsive" alt="a" />
+                    </div>
+                    <div class="info">
+                      <div class="row">
+                        <div class="price col-md-12">
+                          <h5 class="dark_color">Departamento en Providencia</h5>
+                          <h6 class="dark_color_two">Santa Maria del Mar</h6>
+                        </div>
+                        <div class="col-md-6">
+                          <span>m2 const.:104</span>
+                          <span>m2 total.:258</span>
+                          <span>Dorm.:4 Baños.:4</span>
+                        </div>
+                        <div class="col-md-6">
+                          <a href="ficha.html"><button type="button" class="btn btn-info">Ficha</button></a>
+                        </div>
+                      </div>
+                      <div class="separator">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="img/min-logo (1).png" alt="">
+                          </div>
+                          <div class="col-md-9">
+                            <p class="dark_color_two">Vidal Riedel Propiedades - Las Condes</p></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="col-item">
+                    <div class="photo">
+                      <img src="img/slider-prod (7).jpg" class="img-responsive" alt="a" />
+                    </div>
+                    <div class="info">
+                      <div class="row">
+                        <div class="price col-md-12">
+                          <h5 class="dark_color">Departamento en Providencia</h5>
+                          <h6 class="dark_color_two">Santa Maria del Mar</h6>
+                        </div>
+                        <div class="col-md-6">
+                          <span>m2 const.:104</span>
+                          <span>m2 total.:258</span>
+                          <span>Dorm.:4 Baños.:4</span>
+                        </div>
+                        <div class="col-md-6">
+                          <a href="ficha.html"><button type="button" class="btn btn-info">Ficha</button></a>
+                        </div>
+                      </div>
+                      <div class="separator">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="img/min-logo (6).png" alt="">
+                          </div>
+                          <div class="col-md-9">
+                            <p class="dark_color_two">Vidal Riedel Propiedades - Las Condes</p></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="col-item">
+                    <div class="photo">
+                      <img src="img/slider-prod (15).jpg" class="img-responsive" alt="a" />
+                    </div>
+                    <div class="info">
+                      <div class="row">
+                        <div class="price col-md-12">
+                          <h5 class="dark_color">Departamento en Providencia</h5>
+                          <h6 class="dark_color_two">Santa Maria del Mar</h6>
+                        </div>
+                        <div class="col-md-6">
+                          <span>m2 const.:104</span>
+                          <span>m2 total.:258</span>
+                          <span>Dorm.:4 Baños.:4</span>
+                        </div>
+                        <div class="col-md-6">
+                          <a href="ficha.html"><button type="button" class="btn btn-info">Ficha</button></a>
+                        </div>
+                      </div>
+                      <div class="separator">
+                        <div class="row">
+                          <div class="col-xs-3 col-sm-3 col-md-3">
+                            <img src="img/min-logo (7).png" alt="">
+                          </div>
+                          <div class="col-xs-9 col-sm-9 col-md-9">
+                            <p class="dark_color_two">Vidal Riedel Propiedades - Las Condes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--           <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a> -->
+          </div>
+        </div>
+      </div>
+    </div> 
+    
+    <!-- SLIDER DE MARCAS -->
+    
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-md-9 hidden-xs">
+            <h3 class="dark_color">Corredores Integrados</h3>
+            <h4>17 prestigiosas oficinas</h4>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          </div>
+        </div>
+        <div id="carousel-ex" class="carousel slide hidden-xs" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="col-item-1">
+                    <div class="photo-1">
+                      <img src="img/min-logo (10).png" class="img-responsive" alt="a" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="col-item-1">
+                    <div class="photo-1">
+                      <img src="img/min-logo (11).png" class="img-responsive" alt="a" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="col-item-1">
+                    <div class="photo-1">
+                      <img src="img/min-logo (12).png" class="img-responsive" alt="a" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="col-item-1">
+                    <div class="photo-1">
+                      <img src="img/min-logo (13).png" class="img-responsive" alt="a" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="col-item-1">
+                    <div class="photo-1">
+                      <img src="img/min-logo (14).png" class="img-responsive" alt="a" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="col-item-1">
+                    <div class="photo-1">
+                      <img src="img/min-logo (15).png" class="img-responsive" alt="a" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="col-item-1">
+                    <div class="photo-1">
+                      <img src="img/min-logo (16).png" class="img-responsive" alt="a" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="col-item-1">
+                    <div class="photo-1">
+                      <img src="img/min-logo (17).png" class="img-responsive" alt="a" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    <!--           <a class="left carousel-control" href="#carousel-ex" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-ex" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a> -->
+          </div>
+        </div>
+      </div>
+    </div> 
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="primary_color">
+    <div class="row">
+      <div class="container">
+        <div class="foot divider_color">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <img class="back_color" src="img/cicorredoresintegrados.png" alt=""><br><br>
+            <p class="negrita">Oficina Coordinadora</p>
+            <p style="margin-bottom: 70px;"> <i class="fa fa-location-arrow"></i> La Capitania N° 80, Las Condes, Santiago, Chile</p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">             
+            <div class="span-menu">
+              <a class="divider_color" href=""><i class="fa fa-angle-right"></i>&nbsp;Inicio</a><br>
+              <a class="divider_color" href=""><i class="fa fa-angle-right"></i>&nbsp;Quienes somos</a><br>
+              <a class="divider_color" href=""><i class="fa fa-angle-right"></i>&nbsp;Solución hipotecaria</a><br>
+              <a class="divider_color" href=""><i class="fa fa-angle-right"></i>&nbsp;Contacto</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <h2 class="negrita">Nuestras Alianzas</h2><br><br>
+            <span><img src="img/min-logo (1).png" alt=""></span>
+            <span><img src="img/comite-corredores-nuevo2.png" alt=""></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="secondary_text">
+      <div class="container">
+        <div class="foot-cintillo divider_color">
+          <span>Corredores Integrados - Todos los derechos reservados</span>
+          <span>Desarrollado por Convecta</span>
+        </div>
+      </div>
+    </div>
+  </footer> 
+
+
+
+
+
+</body>
+</html>
